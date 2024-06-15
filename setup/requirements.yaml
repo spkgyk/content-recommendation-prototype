@@ -1,0 +1,17 @@
+name: content-recommendation-prototype
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python
+  - pandas
+  - faiss-gpu
+  - scikit-learn
+  - pip:
+    - -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - black
+    - IProgress 
+    - ipykernel 
+    - ipywidgets
+    - jupyterlab
